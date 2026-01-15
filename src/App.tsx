@@ -1,11 +1,13 @@
 // Componente principal (importa os demais)
 
-import WelcomeScreen from "./components/TelaBemVindo/WelcomeScreen";
+import { FormCadastroCompleto } from "./components/Formularios/FormCadastroCompleto";
+import Header from "./components/Header/Header";
 
 export default function App() {
   return (
     <>
-      <WelcomeScreen />
+      <Header />
+      <FormCadastroCompleto />
     </>
   );
 }
