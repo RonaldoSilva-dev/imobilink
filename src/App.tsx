@@ -1,11 +1,11 @@
 // Componente principal (importa os demais)
 
-import Header from "./components/Header/Header";
+import WelcomeScreen from "./components/TelaBemVindo/WelcomeScreen";
 
 export default function App() {
   return (
     <>
-      <Header />
+      <WelcomeScreen />
     </>
   );
 }
